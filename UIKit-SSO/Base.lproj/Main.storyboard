@@ -63,9 +63,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Qoi-7N-Oxr">
-                                <rect key="frame" x="49" y="386" width="295" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Qoi-7N-Oxr">
+                                <rect key="frame" x="49" y="509" width="295" height="80"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -84,6 +83,7 @@
                             <constraint firstItem="bkF-CR-mPR" firstAttribute="leading" secondItem="9cL-gu-1Dg" secondAttribute="leading" id="acs-Fz-Bur"/>
                             <constraint firstItem="hl3-4y-Nll" firstAttribute="top" secondItem="gx9-QQ-Qco" secondAttribute="bottom" constant="2" id="cj5-gR-dLE"/>
                             <constraint firstItem="F5U-XQ-ejL" firstAttribute="top" secondItem="hl3-4y-Nll" secondAttribute="bottom" constant="20" id="nqS-Hl-Bvb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Qoi-7N-Oxr" secondAttribute="bottom" constant="229" id="ubX-Uw-IlN"/>
                             <constraint firstItem="bkF-CR-mPR" firstAttribute="trailing" secondItem="9cL-gu-1Dg" secondAttribute="trailing" id="xWF-w7-XEI"/>
                         </constraints>
                     </view>
